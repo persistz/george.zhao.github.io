@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site
 title:              George Zhao
 bio:                'George Zhao‘s personal blog.'
@@ -72,3 +73,6 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [REA DME.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+=======
+baseurl: /persistz.github.io
+>>>>>>> 64cb1aad9383b544e77cb87f1af4ece560933638
