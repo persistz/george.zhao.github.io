@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Site
 title:              George Zhao
 bio:                'George Zhao‘s personal blog.'
@@ -9,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://localhost:4000
+url:                http://persistz.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -73,6 +72,7 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [REA DME.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
 =======
 baseurl: /persistz.github.io
->>>>>>> 64cb1aad9383b544e77cb87f1af4ece560933638
+
