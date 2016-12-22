@@ -1,0 +1,128 @@
+---
+layout: post
+title:  "Monkey基本使用流程及测试报告分析"
+date:   2016-12-22
+excerpt: "介绍windows环境下Monkey的基本使用方法和简单的日志分析要点。"
+tag:
+- Android Automation Test
+comments: true
+---
+
+　　前一篇文章介绍了Monkey的API函数内容，这篇文章介绍windows环境下Monkey的基本使用方法和日志分析要点。
+
+　　Monkey的使用是和adb (Android Debug Bridge) 联系在一起的，本文的环境为Android Studio 2.2.2，adb的目录默认为：
+　　> C:\Users\Yourname\AppData\Local\Android\sdk\platform-tools
+
+1. 使用cd命令进入adb文件所在目录，或者将其目录加入系统环境变量。
+
+2. 使用adb devices查看当前连接设备。 
+   ```shell
+   adb devices
+   ```
+   ![image](https://github.com/persistz/Pictures/blob/master/monkey_1/1.png?raw=true)
+
+3. 查看包名list
+   ```shell
+   adb shell pm list packages
+   ```
+   找到待测package name，这里使用android.zhibo8进行测试
+
+4. 输入测试monkey命令，这里的命令输入可以参考API进行．本次测试中，我们输入：
+   ```shell
+   adb shell monkey –p android.zhibo8 –-throttle 100 –-pct-touch 50 –-pct-motion 50 –v –v 10
+   ```
+   点击回车，测试记录会在我们的命令行界面中实时显示：
+   ![image](https://github.com/persistz/Pictures/blob/master/monkey_1/2.png?raw=true)
+
+5. 分析测试报告：
+
+   分析测试报告时，需要注意以下内容。
+
+   ​	注意报告中的seed值：我们刚才执行monkey时，没有指定seed，在报告一开始，可以看到其自动生成的seed值，见下图红色部分。如果我们指定了seed，则可以使用相同的seed来生成相同的序列。
+   ![image](https://github.com/persistz/Pictures/blob/master/monkey_1/3.png?raw=true)
+
+   ​	注意查找日志中的无响应问题和崩溃问题。无响应问题可以在日志中搜索 “ANR” ，崩溃问题搜索 “CRASH” ，内存泄露问题搜索"GC"（需进一步分析），异常问题搜索 “Exception”（如果出现空指针， NullPointerException，需格外重视）。
+
+   ​	为了进一步分析问题的来源，可以找到Log中出现问题处的前一次Switch，随后根据Log主要是查看相关的Activity，下面的Log执行的就是LaunchActivity。
+
+   > Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=android.zhibo8/.ui.contollers.main.LaunchActivity;end
+
+   ​
+
+
+#### 补充问题
+
+1. 如何将测试报告记录在本地：
+
+   将命令改为
+
+   ```shell
+   adb shell monkey –p android.zhibo8 –-throttle 100 –-pct-touch 50 –-pct-motion 50 –v –v 10 >c:\monkeylog.txt
+   ```
+   待Monkey运行结束后，会在指定目录下生成指定文件。
+
+2. Event percentage分析：
+
+
+   在上述过程中，使用了percent相关命令控制了事件类型，如果我们不指定事件类型。生成的报告中，事件占比大致如下：
+
+   > // Event percentages:
+   >
+   > //   0: 15.0%
+   >
+   > //   1: 10.0%
+   >
+   > //   2: 2.0%
+   >
+   > //   3: 15.0%
+   >
+   > //   4: -0.0%
+   >
+   > //   5: 25.0%
+   >
+   > //   6: 15.0%
+   >
+   > //   7: 2.0%
+   >
+   > //   8: 2.0%
+   >
+   > //   9: 1.0%
+   >
+   > //   10: 13.0%
+
+   这里将事件分为了10种类型，分别为：
+
+   0：触摸事件百分比，即参数--pct-touch
+
+   1：滑动事件百分比，即参数--pct-motion
+
+   2：缩放事件百分比，即参数--pct-pinchzoom
+
+   3：轨迹球事件百分比，即参数--pct-trackball
+
+   4：屏幕旋转事件百分比，
+
+   5：基本导航事件百分比，即参数--pct-nav
+
+   6：主要导航事件百分比，即参数--pct-majornav
+
+   7：系统事件百分比，即参数--pct-syskeys
+
+   8：Activity启动事件百分比，即参数--pct-appswitch
+
+   9：键盘翻转事件百分比，即参数--pct-flip
+
+   10：其他事件百分比，即参数--pct-anyevent
+
+   更为具体的类型信息，可以查看查看Monkey源码中的MonkeySourceRandom.java文件。
+
+
+###### 参考文档
+
+http://www.cnblogs.com/TankXiao/p/4815134.html
+
+https://www.douban.com/note/257030241/
+
+http://blog.csdn.net/u011649536/article/details/49448107
+
+http://blog.csdn.net/jlminghui/article/details/42268187
