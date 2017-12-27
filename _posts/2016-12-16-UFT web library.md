@@ -2,6 +2,7 @@
 layout: project
 title:  "A Web Automation Test Library Based on UFT"
 date:   2015-12-16
+project: true
 tag:
 - testing
 comments: true
