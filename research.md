@@ -65,7 +65,5 @@ Student Volunteer@ISSTA 2019
 
 ICECCS Reviewer, 2019
 
-Student Volunteer@Expo 2014, Tsingtao
-
 ### Scholarship
 China National Encouragement Scholarship, 2015
