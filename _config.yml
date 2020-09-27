@@ -4,8 +4,8 @@ sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
-url: "https://persistz.github.io"     # the base hostname & protocol for your site
-# baseurl: "/"                   # the subpath of your site, e.g. /blog
+url: "http://s3l.shanghaitech.edu.cn"     # the base hostname & protocol for your site
+baseurl: "/people/zhezhao"                   # the subpath of your site, e.g. /blog
 
 author:
     name:

@@ -9,7 +9,7 @@ pubs:
       journal: "IEEE S&P, Oakland"
       year:    "2021"
       url:     "https://arxiv.org/abs/1911.01840"
-      image:   "/images/fakebob.jpg"
+      image:   "../images/fakebob.jpg"
 
     - title:   "Taking Care of The Discretization Problem: A Comprehensive Study of the Discretization Problem and A Black-Box Adversarial Attack in Discrete Integer Domain"
       author:  "Yuchao Duan, Zhe Zhao, Lei Bu, Fu Song "
