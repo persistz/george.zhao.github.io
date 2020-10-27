@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html url="images/issta.jpeg" caption="" width="300px" align="right" %}
 
-Zhe Zhao(George) is a second year PhD candidate at the System and Software Security Lab(<a href="http://s3l.shanghaitech.edu.cn/">S3L</a>) in School of Information Science and Technology, ShanghaiTech university. 
+Zhe Zhao(George) is a second year PhD student at the System and Software Security Lab(<a href="http://s3l.shanghaitech.edu.cn/">S3L</a>) in School of Information Science and Technology, ShanghaiTech university. 
 He graduated from Ocean University of China in 2016, 
 major in computer science, 
 then joint HP as an automation testing engineer 
