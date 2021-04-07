@@ -1,6 +1,9 @@
-- title: "News"
-  href: "/research/"
+- title: "Intro"
+  href: "/intro/"
 
+- title: "News"
+  href: "/news/"
+  
 # - title: "CV"
   # href: "/cv/"
 

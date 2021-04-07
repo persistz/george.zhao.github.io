@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chewybaca is talking in his sleep"
+title: "Blog Demo"
 description: "Wooky musings"
 categories: ["banter", "thoughts", "dreams", "fears"]
 location: "Galaxy far far away"
