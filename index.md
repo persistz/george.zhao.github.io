@@ -14,8 +14,8 @@ major in computer science,
 then joint HP as an automation testing engineer 
 until becoming a member of S3L.
 
-His research interest lies in the area of trustworthy AI and program , 
-such as adversarial attacks, neural network testing, analysis and verification. 
+His research interest lies in the area of trustworthy AI, program analysis and verification, 
+such as adversarial attacks, neural network testing, etc.
 <!-- He is currently doing research in defining code coverage metrics for GPU programs and automated test case generation, reduction and execution. --> 
 His supervisor is <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Dr. Fu Song</a>.
 
