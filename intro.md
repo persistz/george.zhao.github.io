@@ -3,17 +3,30 @@ layout: page
 permalink: /intro/
 title: 
 pubs:
+    - title: "Attack as Defense: Characterizing Adversarial Examples using Robustness"
+      author: "Zhe Zhao, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun"
+      journal: "Under review"
+      url:     "https://arxiv.org/abs/2103.07633"
+      image:   "../images/A2D.png"
+
+    - title: "BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks"
+      author: "Yedi Zhang, Zhe Zhao, Guangke Chen, Fu Song, Taolue Chen"
+      journal: "CAV"
+      year:    "2021, CCF-A"
+      url:     "https://arxiv.org/abs/2103.07224"
+      image:   "../images/BDD4BNN.png"
 
     - title:   "Who is Real Bob? Adversarial Attacks on Speaker Recognition Systems"
       author:  "Guangke Chen, Sen Chen, Lingling Fan, Xiaoning Du, Zhe Zhao, Fu Song, Yang Liu"
       journal: "IEEE S&P, Oakland"
-      year:    "2021"
+      year:    "2021, CCF-A"
       url:     "https://arxiv.org/abs/1911.01840"
       image:   "../images/fakebob.jpg"
 
     - title:   "Taking Care of The Discretization Problem: A Comprehensive Study of the Discretization Problem and A Black-Box Adversarial Attack in Discrete Integer Domain"
-      author:  "Yuchao Duan, Zhe Zhao, Lei Bu, Fu Song "
-      journal: "In Submit"
+      author:  "Yuchao Duan, Zhe Zhao, Lei Bu, Fu Song"
+      note: "Co-first author"
+      journal: "Under review"
       url:     "https://arxiv.org/abs/1905.07672"
 
     # - title:   "Paper title in 3-7 words that sound like Clingon"
@@ -37,7 +50,7 @@ pubs:
 {% for pub in page.pubs %}
 {% if pub.image %}
 {% include image.html url=pub.image caption=""  
-height="100px" align="right" %}
+width="300px" align="right" %}
 {% endif %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />

@@ -1,8 +1,10 @@
 ---
 layout: page
-title: About
+title: 
 permalink: /
 ---
+
+## About
 
 {% include image.html url="images/issta.jpeg" caption="" width="300px" align="right" %}
 
@@ -17,10 +19,27 @@ such as adversarial attacks, neural network testing, analysis and verification.
 <!-- He is currently doing research in defining code coverage metrics for GPU programs and automated test case generation, reduction and execution. --> 
 His supervisor is <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Dr. Fu Song</a>.
 
-## Contact
+### Contact
 
 <pre>
 <code class="language-bash hljs">name=<span class="hljs-string">"zhaozhe"</span>
 suffix=<span class="hljs-string">"1"</span>
 email=<span class="hljs-variable">${name}</span><span class="hljs-variable">${suffix}</span>@shanghaitech.edu.cn
 </code></pre>
+
+### Latest News
+
+<ul class="listing">
+<li class="listing-item">
+<time datetime="2021">2021-04-18</time>
+	One paper BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks is accepted by CAV 2021.
+</li>
+
+<br />
+<li class="listing-item">
+<time datetime="2021">2021-04-15</time>
+	Win the 3rd place in CVPR2021 Security AI Challenger Track1: 
+	White-box Adversarial Attacks on ML Defense Models
+</li>
+
+</ul>

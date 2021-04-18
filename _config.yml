@@ -28,7 +28,7 @@ analytics:
         sc_invisible: 1
         sc_text     : 2
     google:
-        tracking_id: ''
+        tracking_id: 'G-GJEH70425S'
     getclicky:
       site_id:
     mixpanel:
