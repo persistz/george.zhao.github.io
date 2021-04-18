@@ -32,7 +32,7 @@ email=<span class="hljs-variable">${name}</span><span class="hljs-variable">${su
 <ul class="listing">
 <li class="listing-item">
 <time datetime="2021">2021-04-18</time>
-	One paper BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks is accepted by CAV 2021.
+	Our paper "BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks" is accepted by CAV 2021.
 </li>
 
 <br />
