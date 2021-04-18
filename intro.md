@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /intro/
-title: 
+title:  
 pubs:
     - title: "Attack as Defense: Characterizing Adversarial Examples using Robustness"
       author: "Zhe Zhao, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun"
