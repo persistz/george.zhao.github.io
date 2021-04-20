@@ -3,8 +3,9 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'Libertine', Monaco;
+$base-font-family: "Lucida Grande", 'Libertine', Monaco;
 $base-font-size:   large;
+// $base-font-size: 14.4px;
 $small-font-size:  0.875em;
 $vsmall-font-size: 0.66em;
 $base-line-height: 1.5;
@@ -31,10 +32,10 @@ $header-hover-url:  $url-color;
 $line-color:        $grey-light;
 
 // Width of the content area
-$content-width:    50em;
+$content-width:    55em;
 $content-min-width:15em;
 $mobile:           32em;
-$desktop:          50em;
+$desktop:          55em;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

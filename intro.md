@@ -5,12 +5,13 @@ title:
 pubs:
     - title: "Attack as Defense: Characterizing Adversarial Examples using Robustness"
       author: "Zhe Zhao, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun"
-      journal: "Under review"
+      journal: "ISSTA"
+      year:    "2021, CCF-A"
       url:     "https://arxiv.org/abs/2103.07633"
       image:   "../images/A2D.png"
 
     - title: "BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks"
-      author: "Yedi Zhang, Zhe Zhao, Guangke Chen, Fu Song, Taolue Chen"
+      author: "[Yedi Zhang](http://s3l.shanghaitech.edu.cn/people/yedizhang/), Zhe Zhao, Guangke Chen, Fu Song, Taolue Chen"
       journal: "CAV"
       year:    "2021, CCF-A"
       url:     "https://arxiv.org/abs/2103.07224"
