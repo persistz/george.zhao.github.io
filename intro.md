@@ -27,7 +27,7 @@ pubs:
     - title:   "Taking Care of The Discretization Problem: A Comprehensive Study of the Discretization Problem and A Black-Box Adversarial Attack in Discrete Integer Domain"
       author:  "Yuchao Duan, Zhe Zhao, Lei Bu, Fu Song"
       note: "Co-first author"
-      journal: "Under review"
+      journal: "TDSC, early access"
       url:     "https://arxiv.org/abs/1905.07672"
 
     # - title:   "Paper title in 3-7 words that sound like Clingon"

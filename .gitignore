@@ -1,7 +1,9 @@
 _site/
+_s3l_site/
 .sass-cache/
 .jekyll-metadata
 **/.DS_Store
 .DS_Store
 .jekyll-cache/
 .vscode/
+_s3l_config.yml

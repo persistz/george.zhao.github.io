@@ -6,7 +6,15 @@ permalink: /news/
 
 <ul class="listing">
 <li class="listing-seperator">2021</li>
-  
+
+<br />
+
+<li class="listing-item">
+<time datetime="2021">2021-06-05</time>
+	Our paper about black-box adversarial attack and discretization problem is accepted by TDSC.
+</li>
+
+<br />
 <li class="listing-item">
 <time datetime="2021">2021-04-19</time>
 	Our paper "Attack as Defense: Characterizing Adversarial Examples using Robustness" is accepted by ISSTA 2021.
