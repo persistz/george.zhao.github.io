@@ -8,7 +8,7 @@ pubs:
       journal: "ISSTA"
       year:    "2021, CCF-A"
       url:     "https://dl.acm.org/doi/10.1145/3460319.3464822"
-      doi:     "https://dl.acm.org/doi/10.1145/3460319.3464822"
+      # doi:     "https://dl.acm.org/doi/10.1145/3460319.3464822"
       image:   "../images/A2D.png"
 
     - title: "BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks"
@@ -30,7 +30,7 @@ pubs:
       note: "Co-first author"
       journal: "TDSC, early access"
       url:     "https://www.computer.org/csdl/journal/tq/5555/01/09453106/1ulCF8QBphC"
-      doi:     "https://www.computer.org/csdl/journal/tq/5555/01/09453106/1ulCF8QBphC"
+      # doi:     "https://www.computer.org/csdl/journal/tq/5555/01/09453106/1ulCF8QBphC"
 
     # - title:   "Paper title in 3-7 words that sound like Clingon"
     #   author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
@@ -58,14 +58,18 @@ width="300px" align="right" %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
 *{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})*
-{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
-{% if pub.media %}<br />Media: {% for article in pub.media %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}
+{% if pub.note %} *({{pub.note}})* {% endif %} *{{pub.year}}* 
+{% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% if pub.arxiv %}[[doi]({{pub.arxiv}})]{% endif %}
+{% if pub.media %}<br />Media: {% for article in pub.media %}[[{{article.name}}]
+({{article.url}})]{% endfor %}{% endif %}
 
 {% endfor %}
 
 ### Award
-3rd Place in CVPR2021 Security AI Challenger, 2021 
+3rd Place in ACM MM 2021 Robust Logo Detection Competition, 2021 
+
+3rd Place in CVPR 2021 White-box Adversarial Attacks Competition, 2021 
 
 First Place of Baidu PaddlePaddle AI Adversarial Attack Contest, 2019
 
@@ -77,11 +81,16 @@ Excellent Graduate of Ocean University of China, 2016
 Teaching Assistant for Software Engineering Spring 2019
 
 ### Service
-ICECCS subreviewer, 2020
+
+ICICS reviewer, 2021
+
+ISSRE reviewer, 2021
+
+ICECCS reviewer, 2020
 
 Student Volunteer@ISSTA 2019
 
-ICECCS subreviewer, 2019
+ICECCS reviewer, 2019
 
 ### Scholarship
 China National Encouragement Scholarship, 2015
