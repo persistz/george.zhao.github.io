@@ -30,12 +30,13 @@ email=<span class="hljs-variable">${name}</span><span class="hljs-variable">${su
 ### Latest News
 
 <ul class="listing">
-<!-- <li class="listing-item">
-<time datetime="2021">2021-06-05</time>
-	Our paper about black-box adversarial attack and discretization problem is accepted by TDSC.
-</li>
-<br /> -->
 
+<li class="listing-item">
+<time datetime="2021">2021-06-25</time>
+	Win the 3rd place in ACM MM 2021 Robust Logo Detection Competition among 36489 participating teams.
+</li>
+
+<br />
 <li class="listing-item">
 <time datetime="2021">2021-06-05</time>
 	Our paper about black-box adversarial attack and discretization problem is accepted by TDSC.

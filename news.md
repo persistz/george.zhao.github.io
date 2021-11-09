@@ -2,13 +2,23 @@
 layout: page
 title:  
 permalink: /news/
+
+pubs:
+    - title: "Attack as Defense: Characterizing Adversarial Examples using Robustness"
+      author: "Zhe Zhao, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun"
+      journal: "ISSTA"
 ---
 
 <ul class="listing">
 <li class="listing-seperator">2021</li>
 
 <br />
+<li class="listing-item">
+<time datetime="2021">2021-06-25</time>
+	Win the 3rd place in ACM MM 2021 Robust Logo Detection Competition among 36489 participating teams.
+</li>
 
+<br />
 <li class="listing-item">
 <time datetime="2021">2021-06-05</time>
 	Our paper about black-box adversarial attack and discretization problem is accepted by TDSC.
