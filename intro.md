@@ -7,7 +7,8 @@ pubs:
       author: "Zhe Zhao, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun"
       journal: "ISSTA"
       year:    "2021, CCF-A"
-      url:     "https://arxiv.org/abs/2103.07633"
+      url:     "https://dl.acm.org/doi/10.1145/3460319.3464822"
+      doi:     "https://dl.acm.org/doi/10.1145/3460319.3464822"
       image:   "../images/A2D.png"
 
     - title: "BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks"
@@ -28,7 +29,8 @@ pubs:
       author:  "Yuchao Duan, Zhe Zhao, Lei Bu, Fu Song"
       note: "Co-first author"
       journal: "TDSC, early access"
-      url:     "https://arxiv.org/abs/1905.07672"
+      url:     "https://www.computer.org/csdl/journal/tq/5555/01/09453106/1ulCF8QBphC"
+      doi:     "https://www.computer.org/csdl/journal/tq/5555/01/09453106/1ulCF8QBphC"
 
     # - title:   "Paper title in 3-7 words that sound like Clingon"
     #   author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
