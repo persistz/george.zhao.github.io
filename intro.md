@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /intro/
-title:  
+title: 
 pubs:
     - title: "Attack as Defense: Characterizing Adversarial Examples using Robustness"
-      author: "Zhe Zhao, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun"
+      author: "**Zhe Zhao**, Guangke Chen, Jingyi Wang, Yiwei Yang, Fu Song, Jun Sun"
       journal: "ISSTA"
       year:    "2021, CCF-A"
       url:     "https://dl.acm.org/doi/10.1145/3460319.3464822"
@@ -12,22 +12,22 @@ pubs:
       image:   "../images/A2D.png"
 
     - title: "BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks"
-      author: "[Yedi Zhang](http://s3l.shanghaitech.edu.cn/people/yedizhang/), Zhe Zhao, Guangke Chen, Fu Song, Taolue Chen"
+      author: "[Yedi Zhang](http://s3l.shanghaitech.edu.cn/people/yedizhang/), **Zhe Zhao**, Guangke Chen, Fu Song, Taolue Chen"
       journal: "CAV"
       year:    "2021, CCF-A"
       url:     "https://arxiv.org/abs/2103.07224"
       image:   "../images/BDD4BNN.png"
 
     - title:   "Who is Real Bob? Adversarial Attacks on Speaker Recognition Systems"
-      author:  "Guangke Chen, Sen Chen, Lingling Fan, Xiaoning Du, Zhe Zhao, Fu Song, Yang Liu"
+      author:  "Guangke Chen, Sen Chen, Lingling Fan, Xiaoning Du, **Zhe Zhao**, Fu Song, Yang Liu"
       journal: "IEEE S&P, Oakland"
       year:    "2021, CCF-A"
       url:     "https://arxiv.org/abs/1911.01840"
       image:   "../images/fakebob.jpg"
 
     - title:   "Taking Care of The Discretization Problem: A Comprehensive Study of the Discretization Problem and A Black-Box Adversarial Attack in Discrete Integer Domain"
-      author:  "Yuchao Duan, Zhe Zhao, Lei Bu, Fu Song"
-      note: "Co-first author"
+      author:  "Lei Bu\\*, **Zhe Zhao\\***, Yuchao Duan, Fu Song"
+      note: "Co-first author\\*"
       journal: "TDSC, early access"
       url:     "https://www.computer.org/csdl/journal/tq/5555/01/09453106/1ulCF8QBphC"
       # doi:     "https://www.computer.org/csdl/journal/tq/5555/01/09453106/1ulCF8QBphC"
@@ -58,7 +58,7 @@ width="300px" align="right" %}
 [**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
 {{pub.author}}<br />
 *{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})* {% endif %} *{{pub.year}}* 
+{% if pub.note %} *({{pub.note}})* {% endif %} {% if pub.year %}*{{pub.year}}* {% endif %}
 {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 {% if pub.arxiv %}[[doi]({{pub.arxiv}})]{% endif %}
 {% if pub.media %}<br />Media: {% for article in pub.media %}[[{{article.name}}]
@@ -67,6 +67,9 @@ width="300px" align="right" %}
 {% endfor %}
 
 ### Award
+
+Merit Prize in <a href="https://security.oppo.com/challenge/home.html">OPPO 2021 Security AI Challenge</a>.
+
 3rd Place in ACM MM 2021 Robust Logo Detection Competition, 2021 
 
 3rd Place in CVPR 2021 White-box Adversarial Attacks Competition, 2021 
@@ -82,15 +85,15 @@ Teaching Assistant for Software Engineering Spring 2019
 
 ### Service
 
+ICECCS reviewer, 2022, 2020, 2019
+
 ICICS reviewer, 2021
 
 ISSRE reviewer, 2021
 
-ICECCS reviewer, 2020
-
 Student Volunteer@ISSTA 2019
 
-ICECCS reviewer, 2019
-
 ### Scholarship
+China National Scholarship, 2021
+
 China National Encouragement Scholarship, 2015

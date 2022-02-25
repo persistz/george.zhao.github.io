@@ -7,3 +7,4 @@ _s3l_site/
 .jekyll-cache/
 .vscode/
 _s3l_config.yml
+run.sh
