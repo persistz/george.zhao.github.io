@@ -22,7 +22,7 @@ His supervisor is <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songf
 
 I am currently looking for summer internships or visiting student opportunities.
 
-<a href="ZheZhao_resume.pdf">CV</a>, <a href="https://scholar.google.com/citations?user=OIfDICcAAAAJ&hl=en">Google Scholar</a>, <a href="https://github.com/persistz">Github</a>
+<a href="ZheZhao_resume.pdf">CV</a>, <a href="ZheZhao_resume_zh.pdf">简历</a>, <a href="https://scholar.google.com/citations?user=OIfDICcAAAAJ&hl=en">Google Scholar</a>, <a href="https://github.com/persistz">Github</a>
 
 ### Contact
 
