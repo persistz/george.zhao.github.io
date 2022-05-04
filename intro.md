@@ -84,14 +84,11 @@ Excellent Graduate of Ocean University of China, 2016
 Teaching Assistant for Software Engineering Spring 2019
 
 ### Service
+Committee: OSDI and Usenix ATC AEC (2022), ISSTA AEC (2022)
 
-ICECCS reviewer, 2022, 2020, 2019
+Reviewer: ICECCS (2022, 2020, 2019), ICICS (2021), ISSRE (2021), CAV (2020)
 
-ICICS reviewer, 2021
-
-ISSRE reviewer, 2021
-
-Student Volunteer@ISSTA 2019
+Student Volunteer: ISSTA (2019)
 
 ### Scholarship
 China National Scholarship, 2021

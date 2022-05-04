@@ -9,8 +9,14 @@ news:
 ---
 
 <ul class="listing">
-<li class="listing-seperator">2021</li>
+<li class="listing-seperator">2022</li>
+<br />
+<li class="listing-item">
+<time datetime="2022">2022-04</time>
+	Serve on the Artifact Evaluation Committee (AEC) of OSDI, Usenix ATC and ISSTA 2022.
+</li>
 
+<li class="listing-seperator">2021</li>
 <br />
 <li class="listing-item">
 <time datetime="2021">2021-12</time>
