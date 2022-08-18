@@ -12,6 +12,18 @@ news:
 <li class="listing-seperator">2022</li>
 <br />
 <li class="listing-item">
+<time datetime="2022">2022-07</time>
+	Our paper on using adversarial attacks to accelerate neural network verification is accepted by SAS 2022.
+</li>
+
+<br />
+<li class="listing-item">
+<time datetime="2022">2022-07</time>
+	Our paper "QVIP: An ILP-based  Formal Verification Approach for Quantized Neural Networks" is accepted by ASE 2022.
+</li>
+
+<br />
+<li class="listing-item">
 <time datetime="2022">2022-04</time>
 	Serve on the Artifact Evaluation Committee (AEC) of OSDI, Usenix ATC and ISSTA 2022.
 </li>
