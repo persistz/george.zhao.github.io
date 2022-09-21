@@ -27,7 +27,7 @@ His supervisor is <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songf
 ### Contact 
 
 <pre>
-<a href="ZheZhao_resume.pdf">CV</a>, <a href="ZheZhao_resume_zh.pdf">简历</a>, <a href="https://scholar.google.com/citations?user=OIfDICcAAAAJ&hl=en">Google Scholar</a>, <a href="https://github.com/persistz">Github</a>
+<a href="ZheZhao_resume_zh.pdf">中文简历</a>, <a href="https://scholar.google.com/citations?user=OIfDICcAAAAJ&hl=en">Google Scholar</a>, <a href="https://github.com/persistz">Github</a>
 
 <code class="language-bash hljs">name=<span class="hljs-string">"zhaozhe"</span>
 suffix=<span class="hljs-string">"1"</span>
