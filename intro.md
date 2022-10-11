@@ -113,7 +113,6 @@ First Place of <a href="https://aistudio.baidu.com/aistudio/competition/detail/1
 SIST Excellent Teaching Assistant, 2019
 
 Excellent Graduate of Ocean University of China, 2016
-
 China National Encouragement Scholarship, 2015
 
 ### Teaching

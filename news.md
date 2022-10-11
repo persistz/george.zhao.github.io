@@ -12,6 +12,12 @@ news:
 <li class="listing-seperator">2022</li>
 <br />
 <li class="listing-item">
+<time datetime="2022">2022-10</time>
+	Win 2nd Place Prize in <a href="https://mlsec.io/">MLSec Face Recognition Challenge</a>.
+</li>
+
+<br />
+<li class="listing-item">
 <time datetime="2022">2022-07</time>
 	Our paper on using adversarial attacks to accelerate neural network verification is accepted by SAS 2022.
 </li>
