@@ -9,6 +9,17 @@ news:
 ---
 
 <ul class="listing">
+<li class="listing-seperator">2023</li>
+<li class="listing-item">
+<time datetime="2023">2023-06</time>
+	Ph.D. thesis defense: check!
+</li>
+
+<li class="listing-item">
+<time datetime="2023">2023-06</time>
+	Our paper on query-free black-box adversarial attack against speaker recognition systems is accepted by USENIX 2023.
+</li>
+
 <li class="listing-seperator">2022</li>
 <br />
 <li class="listing-item">
@@ -26,6 +37,11 @@ news:
 <li class="listing-item">
 <time datetime="2022">2022-07</time>
 	Our paper "QVIP: An ILP-based  Formal Verification Approach for Quantized Neural Networks" is accepted by ASE 2022.
+</li>
+
+<li class="listing-item">
+<time datetime="2022">2022-06</time>
+	I am currently a research assistant / visiting student in Singapore Management University, RISE Lab, co-advised by <a href="http://sunjun.site/">Prof. Sun Jun</a>
 </li>
 
 <br />
