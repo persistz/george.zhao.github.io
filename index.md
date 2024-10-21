@@ -91,9 +91,8 @@ whose research interest lies in the area of
 trustworthy AI, software testing and verification, 
 such as the robustness of large language models (LLMs), 
 adversarial attack and defense, neural network testing, etc.
-He received the PhD degree from System and Software Security Lab 
-(<a href="https://s3l.shanghaitech.edu.cn/">S3L</a>) in School of Information Science and Technology, ShanghaiTech university,
-under supervision of <a href="http://faculty.sist.shanghaitech.edu.cn/faculty/songfu/">Prof. Song Fu</a>.
+He received the PhD degree from ShanghaiTech university,
+under supervision of <a href="https://songfu1983.github.io/">Prof. Song Fu</a>.
 <!-- He received a bachelor degree from Ocean University of China in 2016, 
 major in computer science. -->
 <!-- then joint HP as an automation testing engineer 
@@ -109,61 +108,85 @@ such as adversarial attacks, neural network testing, etc. -->
 ### Contact 
 
 <pre>
-<a href="ZheZhao_resume_zh.pdf">中文简历（更新日期：2022.08）</a>, <a href="https://scholar.google.com/citations?user=OIfDICcAAAAJ&hl=en">Google Scholar</a>, <a href="https://github.com/persistz">Github</a>
+<a href="ZheZhao_resume_zh.pdf">中文简历（更新日期：2022.08）</a>, <a href="https://scholar.google.com/citations?user=OIfDICcAAAAJ&hl=en">Google Scholar</a>
 <code class="language-bash hljs">wechat=Persist_GeorgeZ
-
 name=<span class="hljs-string">"zhaozhe"</span>
-suffix=<span class="hljs-string">"1"</span>
-email=<span class="hljs-variable">${name}</span><span class="hljs-variable">${suffix}</span>@shanghaitech.edu.cn
+email=<span class="hljs-variable">${name}</span>@aol.com
 </code></pre>
 
 
 ### Latest News
 
 <ul class="listing">
-
-<li class="listing-item">
-<time datetime="2023">2023-06</time>
-	Ph.D. thesis defense: check!
-</li>
-
-<li class="listing-item">
-<time datetime="2023">2023-06</time>
-	Our paper on query-free black-box adversarial attack against speaker recognition systems is accepted by USENIX 2023.
-</li>
-
-<li class="listing-item">
-<time datetime="2022">2022-10</time>
-	Win 2nd Place Prize in <a href="https://mlsec.io/">MLSec Face Recognition Challenge</a>.
-</li>
-
-<li class="listing-item">
-<time datetime="2022">2022-07</time>
-	Our paper on using adversarial attacks to accelerate neural network verification is accepted by SAS 2022.
-</li>
-
-<li class="listing-item">
-<time datetime="2022">2022-07</time>
-	Our paper "QVIP: An ILP-based  Formal Verification Approach for Quantized Neural Networks" is accepted by ASE 2022.
-</li>
-
-<li class="listing-item">
-<time datetime="2022">2022-06</time>
-	I am currently a research assistant / visiting student in Singapore Management University, RISE Lab, co-advised by <a href="http://sunjun.site/">Prof. Sun Jun</a>
-</li>
-
-<li class="listing-item">
-<time datetime="2022">2022-04</time>
-	Serve on the Artifact Evaluation Committee (AEC) of OSDI, Usenix ATC and ISSTA 2022.
-</li>
-
-<li class="listing-item">
-<time datetime="2021">2021-12</time>
-	Award China national scholarship.
-</li>
+{% assign news_items = site.data.news %}
+{% for post in news_items limit: 5 %}
+  <li class="listing-item">
+    <time datetime="{{ post.date | date:'%Y-%m' }}">{{ post.date | date:'%Y-%m' }}</time> {{ post.info }}
+  </li>
+{% endfor %}
 </ul>
 
 <a href="./news">More...</a>
+
+### Experience
+<div class="experience-item">
+  <p><strong class="company-name">RealAI</strong> - Research Engineer
+  <span class="experience-date">2023.07 - Now</span>
+  </p>
+</div>
+<div class="experience-item">
+  <p><strong class="company-name">Singapore Management University</strong> - Research Assistant
+  <span class="experience-date">2022.07 - 2023.07</span>
+  </p>
+</div>
+<div class="experience-item">
+  <p><strong class="company-name">ShanghaiTech University</strong> - PhD Student
+  <span class="experience-date">2018.07 - 2023.07</span>
+  </p>
+</div>
+<div class="experience-item">
+  <p><strong class="company-name">Hewlett Packard Enterprise / DXC technology</strong> - Software Engineer
+  <span class="experience-date">2016.06 - 2018.01</span>
+  </p>
+</div>
+<div class="experience-item">
+  <p><strong class="company-name">RealAI</strong> - Research Engineer
+  <span class="experience-date">2023.07 - Now</span>
+  </p>
+</div>
+<!-- Add more experience items as needed -->
+
+<style>
+.experience-item {
+  padding: 0px 1px 1px 10px;
+  position: relative;
+}
+
+.company-name {
+  color: #1a73e8; /* A professional blue color */
+}
+
+.experience-date {
+  font-style: italic;
+  color: #666;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.experience-item p {
+  margin: 2px 0;
+}
+
+.experience-item p strong {
+  font-weight: bold;
+}
+
+.experience-item p em {
+  font-style: italic;
+  color: #666;
+}
+</style>
 
 ### Publications
 
