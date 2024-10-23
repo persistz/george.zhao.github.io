@@ -150,8 +150,8 @@ email=<span class="hljs-variable">${name}</span>@aol.com
   </p>
 </div>
 <div class="experience-item">
-  <p><strong class="company-name">RealAI</strong> - Research Engineer
-  <span class="experience-date">2023.07 - Now</span>
+  <p><strong class="company-name">Ocean University of China</strong> - UUndergraduate Student
+  <span class="experience-date">2012.08 - 2016.06</span>
   </p>
 </div>
 <!-- Add more experience items as needed -->
